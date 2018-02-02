@@ -3,19 +3,19 @@
 # * base_report_to_printer
 # 
 # Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2016
+# Hans Henrik Gabelgaard <hhg@gabelgaard.org>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-01 07:49+0000\n"
-"PO-Revision-Date: 2017-07-01 07:49+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2016\n"
-"Language-Team: Hungarian (https://www.transifex.com/oca/teams/23907/hu/)\n"
+"POT-Creation-Date: 2017-09-02 12:27+0000\n"
+"PO-Revision-Date: 2017-09-02 12:27+0000\n"
+"Last-Translator: Hans Henrik Gabelgaard <hhg@gabelgaard.org>, 2017\n"
+"Language-Team: Danish (Denmark) (https://www.transifex.com/oca/teams/23907/da_DK/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: hu\n"
+"Language: da_DK\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: base_report_to_printer
@@ -27,7 +27,7 @@ msgstr ""
 #. module: base_report_to_printer
 #: field:ir.actions.report.xml,printing_action_ids:0
 msgid "Actions"
-msgstr "Műveletek"
+msgstr ""
 
 #. module: base_report_to_printer
 #: selection:printing.printer,status:0
@@ -37,7 +37,7 @@ msgstr ""
 #. module: base_report_to_printer
 #: view:printing.printer.update.wizard:base_report_to_printer.printer_update_wizard
 msgid "Cancel"
-msgstr "Mégsem"
+msgstr ""
 
 #. module: base_report_to_printer
 #: code:addons/base_report_to_printer/wizard/update_printers.py:55
@@ -50,14 +50,14 @@ msgstr ""
 #: field:printing.printer.update.wizard,create_uid:0
 #: field:printing.report.xml.action,create_uid:0
 msgid "Created by"
-msgstr "Készítette"
+msgstr ""
 
 #. module: base_report_to_printer
 #: field:printing.action,create_date:0 field:printing.printer,create_date:0
 #: field:printing.printer.update.wizard,create_date:0
 #: field:printing.report.xml.action,create_date:0
 msgid "Created on"
-msgstr "Létrehozás dátuma"
+msgstr ""
 
 #. module: base_report_to_printer
 #: field:printing.printer,default:0
@@ -74,7 +74,7 @@ msgstr ""
 #: field:printing.printer.update.wizard,display_name:0
 #: field:printing.report.xml.action,display_name:0
 msgid "Display Name"
-msgstr "Név megjelenítése"
+msgstr ""
 
 #. module: base_report_to_printer
 #. openerp-web
@@ -108,7 +108,7 @@ msgstr ""
 #: field:printing.printer.update.wizard,id:0
 #: field:printing.report.xml.action,id:0
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: base_report_to_printer
 #: field:printing.action,__last_update:0
@@ -116,21 +116,21 @@ msgstr "ID"
 #: field:printing.printer.update.wizard,__last_update:0
 #: field:printing.report.xml.action,__last_update:0
 msgid "Last Modified on"
-msgstr "Utolsó frissítés dátuma"
+msgstr ""
 
 #. module: base_report_to_printer
 #: field:printing.action,write_uid:0 field:printing.printer,write_uid:0
 #: field:printing.printer.update.wizard,write_uid:0
 #: field:printing.report.xml.action,write_uid:0
 msgid "Last Updated by"
-msgstr "Utoljára frissítve, által"
+msgstr ""
 
 #. module: base_report_to_printer
 #: field:printing.action,write_date:0 field:printing.printer,write_date:0
 #: field:printing.printer.update.wizard,write_date:0
 #: field:printing.report.xml.action,write_date:0
 msgid "Last Updated on"
-msgstr "Utoljára frissítve "
+msgstr ""
 
 #. module: base_report_to_printer
 #: field:printing.printer,location:0
@@ -140,12 +140,12 @@ msgstr ""
 #. module: base_report_to_printer
 #: field:printing.printer,model:0
 msgid "Model"
-msgstr "Modell, minta"
+msgstr "Model"
 
 #. module: base_report_to_printer
 #: field:printing.action,name:0 field:printing.printer,name:0
 msgid "Name"
-msgstr "Név"
+msgstr ""
 
 #. module: base_report_to_printer
 #: code:addons/base_report_to_printer/report.py:43
@@ -225,7 +225,7 @@ msgstr ""
 #. module: base_report_to_printer
 #: view:ir.actions.report.xml:base_report_to_printer.action_report_xml_form
 msgid "Security"
-msgstr "Biztonság"
+msgstr ""
 
 #. module: base_report_to_printer
 #: selection:printing.printer,status:0
@@ -250,7 +250,7 @@ msgstr ""
 #. module: base_report_to_printer
 #: field:printing.printer,status:0
 msgid "Status"
-msgstr "Állapot"
+msgstr ""
 
 #. module: base_report_to_printer
 #: field:printing.printer,status_message:0
@@ -276,7 +276,7 @@ msgstr ""
 #. module: base_report_to_printer
 #: field:printing.action,type:0
 msgid "Type"
-msgstr "Típus"
+msgstr ""
 
 #. module: base_report_to_printer
 #: field:printing.printer,uri:0
@@ -303,7 +303,7 @@ msgstr ""
 #. module: base_report_to_printer
 #: field:printing.report.xml.action,user_id:0
 msgid "User"
-msgstr "Felhasználó"
+msgstr ""
 
 #. module: base_report_to_printer
 #: model:ir.model,name:base_report_to_printer.model_res_users
@@ -313,4 +313,4 @@ msgstr ""
 #. module: base_report_to_printer
 #: view:printing.printer.update.wizard:base_report_to_printer.printer_update_wizard
 msgid "or"
-msgstr "vagy"
+msgstr ""
