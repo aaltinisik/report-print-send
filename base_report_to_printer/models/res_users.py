@@ -26,12 +26,6 @@ class ResUsers(models.Model):
     printing_printer_id = fields.Many2one(comodel_name='printing.printer',
                                           string='Default Printer')
 
-    printer_tray_id = fields.Many2one(
-        comodel_name='printing.tray',
-        string='Default Printer Paper Source',
-        domain="[('printer_id', '=', printing_printer_id)]",
-    )
-
     @api.model
     def _register_hook(self):
         super()._register_hook()
@@ -43,6 +37,12 @@ class ResUsers(models.Model):
             'printing_action',
             'printing_printer_id',
         ])
+
+    printer_tray_id = fields.Many2one(
+        comodel_name='printing.tray',
+        string='Default Printer Paper Source',
+        domain="[('printer_id', '=', printing_printer_id)]",
+    )
 
     @api.onchange('printing_printer_id')
     def onchange_printing_printer_id(self):

@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <odoo>
     <record id="printer_update_wizard" model="ir.ui.view">
-        <field name="name">printing.printer.update.wizard.new</field>
+        <field name="name">printing.printer.update.wizard</field>
         <field name="model">printing.printer.update.wizard</field>
         <field name="arch" type="xml">
             <form string="Update Printers from CUPS">
-                <separator string="This process will create all missing printers from the current CUPS server."/>
+                <label string="This process will create all missing printers from the current CUPS server." colspan="2" for=""/>
                 <footer>
                     <button name="action_ok" string="Ok" type="object" class="oe_highlight"/>
                     or

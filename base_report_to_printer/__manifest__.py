@@ -7,13 +7,14 @@
 
 {
     'name': "Report to printer",
-    'version': '11.0.2.3.0',
+    'version': '12.0.1.0.0',
     'category': 'Generic Modules/Base',
     'author': "Agile Business Group & Domsense, Pegueroles SCP, NaN,"
-              " LasLabs, Camptocamp, Odoo Community Association (OCA)",
+              " LasLabs, Camptocamp, Odoo Community Association (OCA),"
+              " Open for Small Business Ltd",
     'website': 'http://www.agilebg.com',
     'license': 'AGPL-3',
-    "depends": ['web', 'base'],
+    "depends": ['web'],
     'data': [
         'data/printing_data.xml',
         'security/security.xml',
@@ -27,7 +28,7 @@
         'wizards/printing_printer_update_wizard_view.xml',
     ],
     'installable': True,
-    'application': True,
+    'application': False,
     'external_dependencies': {
         'python': ['cups'],
     },

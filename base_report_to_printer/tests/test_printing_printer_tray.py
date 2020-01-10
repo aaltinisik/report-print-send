@@ -164,7 +164,6 @@ class TestPrintingPrinter(TransactionCase):
             self, os_unlink, cups):
         """
         When a ENOENT error is encountered, the file has already been unlinked
-
         This is not an issue, as we were trying to delete the file.
         The update can continue.
         """

@@ -115,7 +115,7 @@ class TestPrintingPrinter(TransactionCase):
         """ It should print a file through CUPS """
         file_name = 'file_name'
         printer = self.new_record()
-        printer.print_file(file_name, report=self.report, format='pdf')
+        printer.print_file(file_name, 'pdf')
         cups.Connection().printFile.assert_called_once_with(
             printer.system_name,
             file_name,
