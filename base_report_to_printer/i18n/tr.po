@@ -21,12 +21,12 @@ msgstr ""
 #. module: base_report_to_printer
 #: selection:printing.job,job_state:0
 msgid "Aborted"
-msgstr ""
+msgstr "Kesildi"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Aborted by the system"
-msgstr ""
+msgstr "Sistem tarafından durduruldu"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_report_xml_action__action
@@ -42,98 +42,98 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_job__active
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_server__active
 msgid "Active"
-msgstr ""
+msgstr "Aktif"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_server__address
 msgid "Address"
-msgstr ""
+msgstr "Adres"
 
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_printer_view_form
 msgid "Are you sure to want to cancel all jobs of this printer?"
-msgstr ""
+msgstr "Bu yazıcının tüm işlerini iptal etmek istediğinizden emin misiniz?"
 
 #. module: base_report_to_printer
 #: selection:printing.printer,status:0
 msgid "Available"
-msgstr ""
+msgstr "Müsait"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Being transformed into a different format"
-msgstr ""
+msgstr "Farklı bir formata dönüştürüldü"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,help:base_report_to_printer.field_printing_job__job_id_cups
 msgid "CUPS id for this job."
-msgstr ""
+msgstr "Bu iş için CUPS id"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Can be restarted"
-msgstr ""
+msgstr "Yeniden başlatılabilir mi?"
 
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printer_update_wizard
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_job_view_form
 msgid "Cancel"
-msgstr ""
+msgstr "İptal"
 
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_printer_view_form
 msgid "Cancel all running jobs"
-msgstr ""
+msgstr "Çalışan tüm işleri iptal et"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state:0
 msgid "Canceled"
-msgstr ""
+msgstr "İptal"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Cancelled at the device"
-msgstr ""
+msgstr "Cihazda iptal edildi"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Cancelled by the printer operator"
-msgstr ""
+msgstr "Yazıcı operatörü tarafından iptal edildi"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Cancelled by the user"
-msgstr ""
+msgstr "Kullanıcı tarafından iptal edildi"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Cancelled, but printing already processed pages"
-msgstr ""
+msgstr "İptal edildi, ancak önceden işlenmiş sayfaları yazdırıyor"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state:0
 msgid "Completed"
-msgstr ""
+msgstr "Tamamlandı"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Completed successfully"
-msgstr ""
+msgstr "Başarıyla tamamlandı"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Completed with some errors"
-msgstr ""
+msgstr "Bazı hatalarla tamamlandı"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Completed with some warnings"
-msgstr ""
+msgstr "Bazı uyarılarla tamamlandı"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Compressed using an unknown algorithm"
-msgstr ""
+msgstr "Bilinmeyen bir algoritma kullanılarak sıkıştırılmış"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_action__create_uid
@@ -160,68 +160,68 @@ msgstr "Oluşturuldu"
 #. module: base_report_to_printer
 #: model:ir.model.fields,help:base_report_to_printer.field_printing_job__job_state
 msgid "Current state of the job."
-msgstr ""
+msgstr "İşin mevcut durumu."
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Currently being interpreted"
-msgstr ""
+msgstr "Şu anda yorumlanıyor"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Currently being sent to the printer"
-msgstr ""
+msgstr "Şu anda yazıcıya gönderiliyor"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Currently held"
-msgstr ""
+msgstr "Şu anda düzenlenen"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Currently printing"
-msgstr ""
+msgstr "Şu anda yazdırılıyor"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,help:base_report_to_printer.field_printing_job__time_at_completed
 msgid "Date and time of completion for this job."
-msgstr ""
+msgstr "Bu işin tamamlanma tarihi ve saati."
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,help:base_report_to_printer.field_printing_job__time_at_creation
 msgid "Date and time of creation for this job."
-msgstr ""
+msgstr "Bu iş için oluşturulma tarihi ve saati."
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,help:base_report_to_printer.field_printing_job__time_at_processing
 msgid "Date and time of process for this job."
-msgstr ""
+msgstr "Bu iş için işlemin tarihi ve saati."
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__default
 msgid "Default"
-msgstr ""
+msgstr "Varsayılan"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_ir_actions_report__property_printing_action_id
 msgid "Default Behaviour"
-msgstr ""
+msgstr "Varsayılan Davranış"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_ir_actions_report__printing_printer_id
 #: model:ir.model.fields,field_description:base_report_to_printer.field_res_users__printing_printer_id
 msgid "Default Printer"
-msgstr ""
+msgstr "Varsayılan Yazıcı"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_res_users__printer_tray_id
 msgid "Default Printer Paper Source"
-msgstr ""
+msgstr "Varsayılan Yazıcı Kağıt Kaynağı"
 
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_printer_view_form
 msgid "Disable"
-msgstr ""
+msgstr "Devre Dışı"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_action__display_name
@@ -232,41 +232,41 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_server__display_name
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_tray__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Görünüm Adı"
 
 #. module: base_report_to_printer
 #. openerp-web
 #: code:addons/base_report_to_printer/static/src/js/qweb_action_manager.js:28
 #, python-format
 msgid "Document sent to the printer %s"
-msgstr ""
+msgstr "Yazıcıya gönderilen belge %s"
 
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_printer_view_form
 msgid "Enable"
-msgstr ""
+msgstr "Etkin"
 
 #. module: base_report_to_printer
 #: selection:printing.printer,status:0
 msgid "Error"
-msgstr ""
+msgstr "Hata"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Error in the compressed data"
-msgstr ""
+msgstr "Sıkıştırılmış verilerde hata"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Error in the document"
-msgstr ""
+msgstr "Belgedeki hata"
 
 #. module: base_report_to_printer
 #. openerp-web
 #: code:addons/base_report_to_printer/static/src/js/qweb_action_manager.js:35
 #, python-format
 msgid "Error when sending the document to the printer "
-msgstr ""
+msgstr "Belge yazıcıya gönderilirken hata oluştu"
 
 #. module: base_report_to_printer
 #: code:addons/base_report_to_printer/models/printing_server.py:42
@@ -279,17 +279,17 @@ msgstr ""
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Files are currently being received"
-msgstr ""
+msgstr "Dosyalar şu anda alınıyor"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Files were not received in full"
-msgstr ""
+msgstr "Dosyalar tam olarak alınamadı"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Held because the printer is offline"
-msgstr ""
+msgstr "Yazıcı çevrimdışı olduğu için bekletildi"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_action__id
@@ -305,39 +305,39 @@ msgstr "ID"
 #. module: base_report_to_printer
 #: model:ir.model.fields,help:base_report_to_printer.field_printing_server__address
 msgid "IP address or hostname of the server"
-msgstr ""
+msgstr "Sunucunun IP adresi veya ana bilgisayar adı"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,help:base_report_to_printer.field_printing_server__active
 msgid "If checked, this server is useable."
-msgstr ""
+msgstr "İşaretlenirse, bu sunucu kullanılabilir."
 
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_job_view_form
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_job_view_tree
 msgid "Job"
-msgstr ""
+msgstr "İş"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_job__job_id_cups
 msgid "Job ID"
-msgstr ""
+msgstr " İş ID"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,help:base_report_to_printer.field_printing_job__name
 msgid "Job name."
-msgstr ""
+msgstr "İş Adı"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__job_ids
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_printer_view_form
 msgid "Jobs"
-msgstr ""
+msgstr "İşler"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,help:base_report_to_printer.field_printing_printer__job_ids
 msgid "Jobs printed on this printer."
-msgstr ""
+msgstr "Bu yazıcıda yazdırılan işler."
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_action____last_update
@@ -348,7 +348,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_server____last_update
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_tray____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Son Düzenleme Tarihi"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_action__write_uid
@@ -375,22 +375,22 @@ msgstr "Son güncelleme"
 #. module: base_report_to_printer
 #: model:ir.model.fields,help:base_report_to_printer.field_printing_server__printer_ids
 msgid "List of printers available on this server."
-msgstr ""
+msgstr "Bu sunucuda bulunan yazıcıların listesi."
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__location
 msgid "Location"
-msgstr ""
+msgstr "Konum"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_job__job_media_progress
 msgid "Media Progress"
-msgstr ""
+msgstr "Medya İlerleme Durumu"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__model
 msgid "Model"
-msgstr ""
+msgstr "Model"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_action__name
@@ -399,79 +399,79 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_server__name
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_tray__name
 msgid "Name"
-msgstr ""
+msgstr "Ad"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,help:base_report_to_printer.field_printing_server__name
 msgid "Name of the server."
-msgstr ""
+msgstr "Sunucu Adı"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "No data has been received"
-msgstr ""
+msgstr "Veri alınmadı"
 
 #. module: base_report_to_printer
 #: code:addons/base_report_to_printer/models/ir_actions_report.py:112
 #, python-format
 msgid "No printer configured to print this report."
-msgstr ""
+msgstr "Bu raporu yazdırmak için yapılandırılmış yazıcı yok."
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "No reason"
-msgstr ""
+msgstr "Sebep yok"
 
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printer_update_wizard
 msgid "Ok"
-msgstr ""
+msgstr "Tamam"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_ir_actions_report__printer_tray_id
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_report_xml_action__printer_tray_id
 msgid "Paper Source"
-msgstr ""
+msgstr "Kağıt Kaynağı"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__tray_ids
 msgid "Paper Sources"
-msgstr ""
+msgstr "Kağıt Kaynakları"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state:0
 msgid "Pending"
-msgstr ""
+msgstr "Bekliyor"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state:0
 msgid "Pending Held"
-msgstr ""
+msgstr "Bekleyende tutuluyor"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,help:base_report_to_printer.field_printing_job__job_media_progress
 msgid "Percentage of progress for this job."
-msgstr ""
+msgstr "Bu iş için ilerleme yüzdesi."
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_server__port
 msgid "Port"
-msgstr ""
+msgstr "Port"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,help:base_report_to_printer.field_printing_server__port
 msgid "Port of the server."
-msgstr ""
+msgstr "Sunucu Portu"
 
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.act_report_xml_view
 msgid "Print"
-msgstr ""
+msgstr "Yazdır"
 
 #. module: base_report_to_printer
 #: model:ir.model,name:base_report_to_printer.model_printing_action
 msgid "Print Job Action"
-msgstr ""
+msgstr "Yazdırma İşi Eylemi"
 
 #. module: base_report_to_printer
 #: model:ir.model,name:base_report_to_printer.model_printing_printer
@@ -479,32 +479,32 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_report_xml_action__printer_id
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_tray__printer_id
 msgid "Printer"
-msgstr ""
+msgstr "Yazıcı"
 
 #. module: base_report_to_printer
 #: model:ir.model,name:base_report_to_printer.model_printing_tray
 msgid "Printer Tray"
-msgstr ""
+msgstr "Yazıcı Tepsisi"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Printer is stopped"
-msgstr ""
+msgstr "Yazıcı durduruldu"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Printer needs ink/marker/toner"
-msgstr ""
+msgstr "Yazıcının mürekkep / işaretleyici / toner ihtiyacı var"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Printer state reason set to 'stopped-partly'"
-msgstr ""
+msgstr "Yazıcı durumu nedeni 'kısmen durdu' olarak ayarlandı"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,help:base_report_to_printer.field_printing_job__printer_id
 msgid "Printer used for this job."
-msgstr ""
+msgstr "Bu iş için kullanılan yazıcı."
 
 #. module: base_report_to_printer
 #: model:ir.ui.menu,name:base_report_to_printer.printing_printer_menu
@@ -513,12 +513,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_printer_view_tree
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_server_view_form
 msgid "Printers"
-msgstr ""
+msgstr "Yazıcılar"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_server__printer_ids
 msgid "Printers List"
-msgstr ""
+msgstr "Yazıcı Listesi"
 
 #. module: base_report_to_printer
 #: model:ir.ui.menu,name:base_report_to_printer.printing_menu
@@ -526,27 +526,27 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.view_users_form_simple_modif
 #: selection:printing.printer,status:0
 msgid "Printing"
-msgstr ""
+msgstr "Yazdırma"
 
 #. module: base_report_to_printer
 #: model:res.groups,name:base_report_to_printer.printing_group_manager
 msgid "Printing / Print Manager"
-msgstr ""
+msgstr "Yazdırma / Baskı Yöneticisi"
 
 #. module: base_report_to_printer
 #: model:res.groups,name:base_report_to_printer.printing_group_user
 msgid "Printing / Print User"
-msgstr ""
+msgstr "Yazdırma / Baskı Kullanıcısı"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_res_users__printing_action
 msgid "Printing Action"
-msgstr ""
+msgstr "Yazdırma Eylemi"
 
 #. module: base_report_to_printer
 #: model:ir.model,name:base_report_to_printer.model_printing_job
 msgid "Printing Job"
-msgstr ""
+msgstr "Yazdırma İşi"
 
 #. module: base_report_to_printer
 #: model:ir.model,name:base_report_to_printer.model_printing_printer_update_wizard
@@ -561,32 +561,32 @@ msgstr ""
 #. module: base_report_to_printer
 #: model:ir.model,name:base_report_to_printer.model_printing_server
 msgid "Printing server"
-msgstr ""
+msgstr "Yazdırma sunucusu"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state:0
 msgid "Processing"
-msgstr ""
+msgstr "İşlem Sürüyor"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state:0
 msgid "Processing Stopped"
-msgstr ""
+msgstr "İşlem Durdu"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Queued at the output device"
-msgstr ""
+msgstr "Çıkış cihazında sıraya alındı"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Queued for printing"
-msgstr ""
+msgstr "Yazdırma için sıraya alındı"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,help:base_report_to_printer.field_printing_job__job_state_reason
 msgid "Reason for the current job state."
-msgstr ""
+msgstr "Mevcut iş durumunun nedeni."
 
 #. module: base_report_to_printer
 #. openerp-web
@@ -595,49 +595,49 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_report_xml_action__report_id
 #, python-format
 msgid "Report"
-msgstr ""
+msgstr "Rapor"
 
 #. module: base_report_to_printer
 #: model:ir.model,name:base_report_to_printer.model_ir_actions_report
 msgid "Report Action"
-msgstr ""
+msgstr "Rapor Eylemi"
 
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_report_xml_action_view_form
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_report_xml_action_view_tree
 msgid "Report Printing Actions"
-msgstr ""
+msgstr "Rapor Yazdırma İşlemi"
 
 #. module: base_report_to_printer
 #: model:ir.ui.menu,name:base_report_to_printer.printing_report_xml_action_menu
 msgid "Reports"
-msgstr ""
+msgstr "Raporlar"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Resources not available to print the job"
-msgstr ""
+msgstr "İşi yazdırmak için mevcut olmayan kaynaklar"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_job__server_id
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__server_id
 msgid "Server"
-msgstr ""
+msgstr "Sunucu"
 
 #. module: base_report_to_printer
 #: selection:printing.printer,status:0
 msgid "Server Error"
-msgstr ""
+msgstr "Sunucu Hatası"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,help:base_report_to_printer.field_printing_printer__server_id
 msgid "Server used to access this printer."
-msgstr ""
+msgstr "Bu yazıcıya erişmek için kullanılan sunucu."
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,help:base_report_to_printer.field_printing_job__server_id
 msgid "Server which hosts this job."
-msgstr ""
+msgstr "Bu işi barındıran sunucu."
 
 #. module: base_report_to_printer
 #: model:ir.actions.act_window,name:base_report_to_printer.printing_server_action
@@ -646,160 +646,160 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_server_view_search
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_server_view_tree
 msgid "Servers"
-msgstr ""
+msgstr "Sunucular"
 
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_printer_view_form
 msgid "Set Default"
-msgstr ""
+msgstr "Varsayılan Yap"
 
 #. module: base_report_to_printer
 #: model:ir.actions.act_window,name:base_report_to_printer.printing_printer_action
 msgid "Show Printers"
-msgstr ""
+msgstr "Yazıcıları Göster"
 
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.act_report_xml_view
 msgid "Specific actions per user"
-msgstr ""
+msgstr "Her kullanıcı için özel eylem"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_job__job_state
 msgid "State"
-msgstr ""
+msgstr "Durum"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_job__job_state_reason
 msgid "State Reason"
-msgstr ""
+msgstr "Durum Nedeni"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__status
 msgid "Status"
-msgstr ""
+msgstr "Durum"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__status_message
 msgid "Status Message"
-msgstr ""
+msgstr "Durum Mesajı"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__system_name
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_tray__system_name
 msgid "System Name"
-msgstr ""
+msgstr "Sistem Adı"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "The URI cannot be accessed"
-msgstr ""
+msgstr "Bu URI'ye erişilemiyor"
 
 #. module: base_report_to_printer
 #: sql_constraint:printing.job:0
 msgid "The id of the job must be unique per server !"
-msgstr ""
+msgstr "İşin kimliği sunucu başına benzersiz olmalıdır!"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,help:base_report_to_printer.field_ir_actions_report__printing_action_ids
 msgid "This field allows configuring action and printer on a per user basis"
-msgstr ""
+msgstr "Bu alan, eylemi ve yazıcıyı kullanıcı bazında yapılandırmaya izin verir"
 
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printer_update_wizard
 msgid ""
 "This process will create all missing printers from the current CUPS server."
-msgstr ""
+msgstr "Bu işlem, mevcut CUPS sunucusundan tüm eksik yazıcıları oluşturur."
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_job__time_at_completed
 msgid "Time At Completed"
-msgstr ""
+msgstr "Tamamlanma Zamanı"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_job__time_at_creation
 msgid "Time At Creation"
-msgstr ""
+msgstr "Oluşturulma Zamanı"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_job__time_at_processing
 msgid "Time At Processing"
-msgstr ""
+msgstr "İşleme Süresi"
 
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_printer_view_form
 msgid "Trays"
-msgstr ""
+msgstr "Tepsiler"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_action__action_type
 msgid "Type"
-msgstr ""
+msgstr "Tipi"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__uri
 msgid "URI"
-msgstr ""
+msgstr "URI"
 
 #. module: base_report_to_printer
 #: selection:printing.printer,status:0
 msgid "Unavailable"
-msgstr ""
+msgstr "Kullanım Dışı"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,help:base_report_to_printer.field_printing_job__active
 msgid "Unchecked if the job is purged from cups."
-msgstr ""
+msgstr "İş CUPlardan temizlenmişse işaretlenmez."
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state:0 selection:printing.printer,status:0
 msgid "Unknown"
-msgstr ""
+msgstr "Bilinmeyen"
 
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_printer_view_form
 msgid "Unset Default"
-msgstr ""
+msgstr "Unset Varsayılan"
 
 #. module: base_report_to_printer
 #: selection:printing.job,job_state_reason:0
 msgid "Unsupported format"
-msgstr ""
+msgstr "Desteklenmeyen Format"
 
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_server_view_form
 msgid "Update Jobs"
-msgstr ""
+msgstr "İşleri Güncelle"
 
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_server_view_form
 msgid "Update Printers"
-msgstr ""
+msgstr "Yazıcıları Güncelle"
 
 #. module: base_report_to_printer
 #: model:ir.actions.server,name:base_report_to_printer.ir_cron_update_printers_ir_actions_server
 #: model:ir.cron,cron_name:base_report_to_printer.ir_cron_update_printers
 #: model:ir.cron,name:base_report_to_printer.ir_cron_update_printers
 msgid "Update Printers Jobs"
-msgstr ""
+msgstr "Yazıcı İşlerini Güncelle"
 
 #. module: base_report_to_printer
 #: model:ir.actions.act_window,name:base_report_to_printer.action_printer_update_wizard
 #: model:ir.ui.menu,name:base_report_to_printer.menu_printer_update_wizard
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printer_update_wizard
 msgid "Update Printers from CUPS"
-msgstr ""
+msgstr "CUPS Yazıcılarını Güncelle"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_report_xml_action__user_id
 msgid "User"
-msgstr ""
+msgstr "Kullanıcı"
 
 #. module: base_report_to_printer
 #: model:ir.model,name:base_report_to_printer.model_res_users
 msgid "Users"
-msgstr ""
+msgstr "Kullanıcılar"
 
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printer_update_wizard
 msgid "or"
-msgstr ""
+msgstr "yada"
